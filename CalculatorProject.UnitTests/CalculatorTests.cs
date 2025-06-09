@@ -13,7 +13,7 @@ namespace CalculatorProject.UnitTests
             var result = calculator.Add(1, 2);
 
             // Assert
-            Assert.That(result, Is.EqualTo(3));
+            Assert.That(result, Is.EqualTo(1));
         }
     }
 }
